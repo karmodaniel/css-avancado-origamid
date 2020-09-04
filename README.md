@@ -7,7 +7,7 @@ This website was developed in [Origamid](https://origamid.com) <img alt="origami
 
 ## Demo
 
-
+https://karmodaniel.github.io/css-avancado-origamid/
 
 </br>
 
@@ -15,7 +15,7 @@ This website was developed in [Origamid](https://origamid.com) <img alt="origami
 
 - HTML
 - CSS
-- JAVASCRIPT
+
 
  ## Author
 
