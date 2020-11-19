@@ -1,60 +1,121 @@
-body, p, h1, ul, li {
-   margin: 0; 
-   padding: 0;
+body,
+p,
+h1,
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #252525;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #252525;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* HEADER */
 
 .header {
-    background: #d6d3c8;
-    padding: 20px;
+  background: #d6d3c8;
+  padding: 20px;
 }
 
-.header::before, .header::after {
-    content: '';
-    display: table;
-    clear: both;
+.header::before,
+.header::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .header-logo {
-    float: left;
+  float: left;
 }
 
 .header-menu ul {
-    float: right;
+  float: right;
 }
 
 .header-menu li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .header-menu li a {
-    color: #252525;
-    font-size: 1.125em;
-    padding: 0 10px;
+  color: #252525;
+  font-size: 1.125em;
+  padding: 0 10px;
 }
 
-.header-menu li:first-child a{
-    padding-left: 0px;
+.header-menu li:first-child a {
+  padding-left: 0px;
+}
+
+/* MAIN */
+
+.main-container {
+}
+
+/* SIDE NAV*/
+
+.side-nav {
+  width: 300px;
+  background: #252525;
+  float: left;
+}
+
+.side-nav li a {
+  display: block;
+  color: #fff;
+  border-bottom: 2px solid #484846;
+  font-size: 1.125em;
+  padding: 20px;
+}
+
+.side-nav li a::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  top: 5px;
+  margin-right: 5px;
+  position: relative;
+  background-image: url("../brafe-3-puro/img/icones.png");
+}
+
+.nav-contabilidade::before {
+  background-position: 0 0;
+}
+
+.nav-produtos::before {
+  background-position: 0 -24px;
+}
+
+.nav-paginas::before {
+  background-position: 0 calc(-24px * 2);
+}
+
+.nav-plugins::before {
+  background-position: 0 calc(-24px * 3);
+}
+
+.nav-formularios::before {
+  background-position: 0 calc(-24px * 4);
+}
+
+.nav-hospedagens::before {
+  background-position: 0 calc(-24px * 5);
 }
